@@ -1,5 +1,7 @@
 # 🕺 Dance Competition App
 
+[![CI](https://github.com/Harihara04sudhan/dance-competition-app/actions/workflows/ci.yml/badge.svg)](https://github.com/Harihara04sudhan/dance-competition-app/actions/workflows/ci.yml)
+
 A short-form dance competition mobile application built with React Native, demonstrating modern mobile development practices with real-time data fetching and smooth user experience.
 
 ## 🚀 Features
