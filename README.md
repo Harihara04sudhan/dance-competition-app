@@ -32,7 +32,7 @@ The app features three main screens:
 ## 🔧 Setup Instructions
 
 ### Prerequisites
-- Node.js (v16 or higher)
+- Node.js (v20 or higher, required by Expo SDK 54)
 - npm or yarn
 - Expo CLI (`npm install -g @expo/cli`)
 - iOS Simulator (Mac) or Android Studio for testing
@@ -54,7 +54,7 @@ The app features three main screens:
    - Create a free account at [supabase.com](https://supabase.com)
    - Create a new project
    - Get your project URL and anon key from Settings > API
-   - Update the `.env` file:
+   - Copy `.env.example` to `.env` and fill in your credentials:
      ```env
      EXPO_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
      EXPO_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
